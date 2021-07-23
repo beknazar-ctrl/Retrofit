@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="6dp"
+    android:background="@color/cardview_shadow_end_color">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/filmTitleText"
+        tools:text="My Neighbor Totoro"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/filmDirectoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Hayao Miyazaki"
+        android:textAlignment="center"/>
+
+    
+
+</androidx.appcompat.widget.LinearLayoutCompat>
